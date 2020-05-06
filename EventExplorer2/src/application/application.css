@@ -1,0 +1,38 @@
+.root {
+	-fx-background-color: lightgray;
+	-fx-font-family: 'Arial';
+	-fx-font-weight: bold;
+	-fx-font-style: normal;
+	-fx-font-size: 14.0px;
+	-fx-background-radius: 5.0px;
+    -fx-background-insets: 5.0px;
+    -fx-padding: 10.0px;
+	-fx-spacing: 10.0px;
+    -fx-hgap: 10.0px;
+    -fx-vgap: 10.0px;
+}
+
+.vbox {
+	-fx-fill-width: true;
+}
+.grid-pane {
+    -fx-padding: 10.0;
+    -fx-hgap: 10.0;
+    -fx-vgap: 10.0;
+    -fx-alignment: center;
+}
+
+.button {
+	-fx-pref-height: 25.0px;
+	-fx-pref-width: 100.0px;
+}
+
+.label {
+	-fx-alignment: bottom-right;
+
+}
+
+.text-area {
+	-fx-background-radius: 5.0px;
+    -fx-background-insets: 5.0px;
+}
