@@ -1,0 +1,45 @@
+.root {
+	-fx-font-family: 'JetBrains Mono';
+	-fx-font-size: 20px;
+	-fx-font-weight: bold;
+	-fx-background-color: lightblue;
+	-fx-background-image: url("/application/purple2.png");
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: stretch;
+}
+
+.label {
+	-fx-text-fill: white;
+}
+
+.button {
+	-fx-pref-width: 100px;
+}
+
+#title {
+	-fx-font-size: 32px;
+	-fx-text-fill: orange;
+}
+
+.fancy-button {
+	-fx-background-color: red;
+	-fx-text-fill: white;
+}
+
+.fancy-button:hover {
+	-fx-background-color: yellow;
+	-fx-text-fill: red;
+}
+
+.fancy-button:pressed {
+	-fx-background-color: green;
+	-fx-text-fill: white;
+}
+
+.text-field {
+	-fx-border-color: blue;
+	-fx-border-width: 3px;
+	-fx-border-radius: 25px;
+	-fx-background-radius: 25px;
+	-fx-pref-column-count: 25;
+}
