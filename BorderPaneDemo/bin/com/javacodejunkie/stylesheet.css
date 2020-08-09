@@ -1,0 +1,19 @@
+.root {
+	-fx-font-size: 18px;
+	-fx-font-weight: bold;
+}
+
+.label {
+	-fx-font-size: inherit;
+	-fx-font-weight: inherit;
+}
+
+.button {
+	-fx-border-color: black;
+	-fx-border-image-width: 3px;
+	-fx-border-radius: 3px;
+}
+
+.button:hover {
+	-fx-background-color: fuchsia;
+}
