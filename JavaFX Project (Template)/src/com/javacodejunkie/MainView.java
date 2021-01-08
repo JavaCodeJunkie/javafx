@@ -17,8 +17,6 @@ public class MainView {
 
 	private void buildUI() {
 		root = new BorderPane();
-		
-		
 
 		scene = new Scene(root, 800, 500);
 		scene.getStylesheets().add("/com/javacodejunkie/stylesheet.css");
