@@ -1,0 +1,21 @@
+.root {
+	-fx-font-size: 14px;
+}
+
+.slider {
+ 	-fx-background-color: BLACK;
+ }
+
+.slider .thumb {
+    -fx-background-color: ORANGE;
+}
+
+.slider .track {
+      -fx-background-color: LIGHTGREY;
+}
+.slider:vertical .track {
+    -fx-background-color: GREY;
+}
+.slider .axis {
+    -fx-tick-label-fill: LIGHTGREY;
+}
