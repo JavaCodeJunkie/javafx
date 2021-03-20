@@ -1,0 +1,10 @@
+.root {
+	-fx-font-size: 14px;
+}
+
+.accordion {
+	-fx-padding: 5px;
+	-fx-background-color: slategray;
+}
+
+
